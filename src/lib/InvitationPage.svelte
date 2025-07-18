@@ -41,11 +41,16 @@
 <section in:fade={{ duration: 1000 }} class="main-section overflow-hidden">
   <div class="main-container">
     <div class="wedding-banner">
-      <div class="text-center">
+      <div class="wrapper-title">
         <p class="banner-text-small">The Wedding of</p>
         <h1 class="couple-names">DEA & DEDI</h1>
       </div>
-      <PageDate></PageDate>
+      <div class="wrapper-date">
+        <PageDate></PageDate>
+      </div>
+      <!-- <div class="display-arrow">
+        <i class="fa-regular fa-circle-down"></i>
+      </div> -->
     </div>
   
     <div>
@@ -83,7 +88,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20% 0;
+    padding: 150px 0;
     gap: 5vh;
     position: relative;
     width: 100%;
@@ -103,16 +108,58 @@
     scale: 1 1.15;
   }
 
+  .wrapper-title {
+    text-align: center;
+  }
+
+  .wrapper-date {
+    transform: translateY(50px);
+    animation: slide-up 2s 0.7s ease forwards;
+  }
+
+  /* .display-arrow {
+    font-size:30px;
+    animation: spark 4s infinite;
+  } */
+
   .banner-text-small {
-    font-size: 0.8em;
-    font-family: "Domine", serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: "DomineRegular", serif;
+    color: #4E4E4E;
+    scale: 0.5;
+    animation: pop 1s ease forwards;
   }
 
   .couple-names {
     font-family: "CinzelDecorative", sans-serif;
-    font-size: 1.7em;
-    margin-bottom: 250px;
+    font-size: 34px;
+    margin-bottom: 160px;
+    color: #4E4E4E;
+    transform: translateY(20px);
+    animation: slide-up 2s ease forwards;
   }
+
+  @keyframes slide-up{
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes pop {
+    to {
+      scale: 1;
+    }
+  }
+
+  /* @keyframes spark {
+    0%, 100% {
+      filter: brightness(1);
+    }
+    50% {
+      filter: brightness(0.7);
+    }
+  } */
 
   .content-frame-container {
     background-color: var(--bg-dark-blue);
@@ -152,7 +199,8 @@
   .ornament-decoration-left {
     transform: rotate(20deg);
     bottom: 45%;
-    left: -75%;
+    left: -80%;
+    z-index: 0;
     animation: slide1 10s infinite ease-in-out;
   }
 

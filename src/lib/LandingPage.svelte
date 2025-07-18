@@ -9,7 +9,7 @@
   let guestName = "Adhan dan Partner";
 </script>
 
-<section in:fade={{ duration: 1000 }} class="invitation-cover overflow-hidden">
+<section in:fade={{ duration: 1000 }} class="invitation-cover">
   <div class="invitation-background">
     <div class="content-wrapper">
       <div class="header-section">
@@ -18,7 +18,7 @@
       </div>
 
       <div class="guest-info-section">
-        <h2 class="greeting-text">Kepada yang terhormat</h2>
+        <h2 class="greeting-text">Kepada YTH</h2>
         <h1 class="guest-name">{guestName}</h1>
         <button on:click={openInvitation} class="open-button">Open Invitation</button>
       </div>
@@ -39,10 +39,6 @@
   .invitation-cover {
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; /* Pastikan tidak ada scroll jika konten melebihi layar */
   }
 
   /* Latar belakang dengan gambar */
@@ -55,7 +51,6 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Untuk menempatkan konten di atas dan bawah */
     align-items: center;
     padding: 20px; /* Sedikit padding agar konten tidak terlalu mepet tepi */
     box-sizing: border-box; /* Pastikan padding tidak menambah ukuran elemen */
@@ -65,25 +60,27 @@
   .content-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    padding: 30px;
     align-items: center;
-    height: 100%; /* Pastikan wrapper mengambil tinggi penuh dari parent-nya */
+    height: 100%;
     width: 100%;
+    justify-content: space-between;
     max-width: 600px; /* Batasi lebar maksimum untuk keterbacaan di layar besar */
   }
 
   /* Bagian Judul Pernikahan */
   .header-section {
     text-align: center;
-    margin-top: 2rem; /* Jarak dari atas */
     font-family: serif; /* Atur font secara spesifik jika dibutuhkan */
   }
 
   .pre-title {
+    font-family: "AbhayaLibre";
     color: var(--primary-text-color);
-    font-size: 1.25rem; /* text-xl */
+    font-size: 18px;
+    letter-spacing: 3px;
     margin-top: 1rem;
-    margin-bottom: 1.75rem; /* mt-4 mb-7 */
+    margin-bottom: 15px; /* mt-4 mb-7 */
   }
 
   .main-title {
@@ -95,16 +92,16 @@
   /* Bagian Informasi Tamu dan Tombol */
   .guest-info-section {
     text-align: center;
-    margin-bottom: 7.5rem; /* mb-30 (30*4=120px) */
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem; /* space-y-6 (6*4=24px) */
+    gap: 1.2rem; 
   }
 
   .greeting-text {
-    font-family: serif;
+    font-family: "AbhayaLibre";
     color: var(--primary-text-color);
-    font-size: 1rem; /* text-1xl */
+    font-size: 18px; /* text-1xl */
   }
 
   .guest-name {

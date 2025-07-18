@@ -49,20 +49,20 @@
 
   .frame p {
     font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'AbhayaLibre', Times, serif;
     width: 300px;
   }
 
   .frame h4 {
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'AbhayaLibre', Times, serif;
   }
 
   .frame h2 {
     font-size: 30px;
     font-weight: bold;
-    font-family: "Brittany", serif;
+    font-family: "BrittanySignature", serif;
   }
 
   .icon {

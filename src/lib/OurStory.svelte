@@ -46,20 +46,20 @@
 
   .title {
     color: white;
-    font-size: 32px;
-    font-family: "Bodoni Moda", serif;
+    font-size: 30px;
+    font-family: "wasted-vindey", sans-serif;
     text-align: center;
   }
 
   .sub-title {
-    font-family: "Libre Baskerville", serif;
+    font-family: "AbhayaLibre", sans-serif;
     color: white;
     font-size: 20px;
   }
 
   p {
     font-size: 14px;
-    font-family: "Domine", serif;
+    font-family: "AbhayaLibre", serif;
     color: white;
     max-width: 600px; /* Membatasi lebar teks untuk keterbacaan */
   }

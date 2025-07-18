@@ -63,17 +63,17 @@
   }
 
   h1 {
-    font-family: "Bodoni Moda", serif;
+    font-family: "wasted-vindey", serif;
     width: 100px;
     color: white;
-    font-size: 32px;
+    font-size: 42px;
     margin-bottom: 15px;
 
   }
 
   p {
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'AbhayaLibre', Times, serif;
     font-size: 14px;
     width: 90%;
   }

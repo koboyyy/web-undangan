@@ -29,16 +29,17 @@
     align-items: center;
     gap: 15px;
     border-radius: 10px;
-    backdrop-filter: blur(2px); /* Inti blur-nya */
-    background-color: transparent;
-    color: white;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.123);
+    border: 1px solid #4e4e4e4b;
+    color: #4E4E4E;
     padding: 10px;
   }
 
   .title {
-    font-family: "Bodoni Moda", serif;
-    font-size: 24px;
-    color: rgb(255, 255, 255);
+    font-family: "BodoniModa", serif;
+    font-size: 1.25em;
+    color: #4E4E4E;
   }
 
   .date {
@@ -47,9 +48,10 @@
   }
 
   .date div {
-    font-family: "Domine", serif;
+    font-family: "Nunito-Regular", serif;
+    letter-spacing: 1px;
     font-size: 0.7em;
-    color: white;
+    color: #4E4E4E;
     padding: 5px 14px;
     border-radius: 10px;
     background-color: rgba(8, 59, 35, 0.273);

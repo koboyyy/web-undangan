@@ -66,9 +66,9 @@
     margin-bottom: 50px;
   }
 
-  h2 {
+  .title h2 {
+    font-family: "wasted-vindey", sans-serif;
     font-size: 30px;
-    font-family: was;
     color: white;
   }
 
@@ -76,7 +76,7 @@
     font-size: 14px;
     color: white;
     width: 160px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'AbhayaLibre', sans-serif;
   }
 
   .frame-rsvp input {

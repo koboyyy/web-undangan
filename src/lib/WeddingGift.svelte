@@ -31,7 +31,6 @@
 
 <style>
   .container {
-    font-family: "Domine", serif;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -48,22 +47,25 @@
   }
 
   .wedding-gift h3 {
+    font-family: "wasted-vindey", sans-serif;
     font-size: 30px;
     margin-bottom: 5px;
   }
 
   .wedding-gift p {
     font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'AbhayaLibre', sans-serif;
   }
 
   p {
-    font-size: 14px;
+    font-family: "Nunito-Regular", sans-serif;
+    font-size: 13px;
     margin: 4px 0;
   }
 
   span {
-    font-size: 12px;
+    font-family: "Nunito-Regular", sans-serif;
+    font-size: 10px;
   }
 
   .via {
@@ -117,8 +119,14 @@
     flex-direction: column;
   }
 
-  .via-3 p {
-    font-size: 12px;
+  .via-3 p , .via-3 div{
+    font-family: "Nunito-Regular", sans-serif;
+    font-size: 13px;
+  }
+
+  .via-3 div {
+    font-size: 18px;
+    letter-spacing: 5px;
   }
 
   .via img {
@@ -126,11 +134,12 @@
   }
 
   button {
+    font-family: "Domine", serif;
     margin-top: 10px;
     padding: 4px 7px;
     background-color: #6A6A6A ;
     border-radius: 7px;
-    font-size: 12px;
+    font-size: 10px;
     cursor: pointer;
     transition: all 0.5s ease;
   }

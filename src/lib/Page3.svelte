@@ -56,8 +56,8 @@
       <div class="frame-inset"></div>
       <div class="info-wrapper right">
         <div id="info2" class="info" class:slide-in={isVisible2}>
-          <h1>Dia Santika, S.Pd</h1>
-          <p>Putri dari Bapak Sopiyan dan Ibu Solihatun</p>
+          <h1>M. Taufik Akbar. S,T</h1>
+          <p>Putra dari Bapat Arizal dan ibu Rahmalina</p>
         </div>
       </div>
     </div>
@@ -153,7 +153,7 @@
   }
 
   .frame {
-    width: 315px;
+    width: 65%;
     height: 355px;
     margin-bottom: 100px;
     position: relative;
@@ -170,20 +170,20 @@
 
   .frame::after {
     content: "Te Bride";
-    font-size: 3rem;
+    font-size: 60px;
     position: absolute;
     width: max-content;
-    bottom: 35%;
-    transform: rotate(-90deg);
-    font-family: "Brittany";
+    bottom: 33%;
+    writing-mode: sideways-lr;
+    font-family: "Creattion", sans-serif;
   }
 
   .frame-left::after {
-    left: 89%;
+    left: 100%;
   }
 
   .frame-right::after {
-    left: -35%;
+    right: 97%;
   }
 
   .frame-inset {
@@ -203,38 +203,52 @@
   }
 
   .info-wrapper.left {
-    left: 100px;
+    left: 20%;
   }
 
   .info-wrapper.right {
-    right: 100px;
+    right: 20%;
   }
 
   .info {
     background-color: #051d30;
     color: white;
     border-radius: 10px 20px;
-    padding: 30px;
+    padding: 20px 25px;
     width: 100%;
-    height: 100%;
+    min-width: 270px;
     opacity: 0;
     transition: transform 1s ease, opacity 1s ease;
   }
 
+  .info h1 {
+    font-family: "wasted-vindey", sans-serif;
+    font-size: 25px;
+  }
+
+  .info p {
+    font-family: "Nunito-Regular", sans-serif;
+    font-size: 13px;
+  }
+
   .info-wrapper.left .info {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
+    opacity: 0;
   }
 
   .info-wrapper.right .info {
-    transform: translateX(100%);
+    transform: translateX(50%);
+    opacity: 0;
   }
 
   .info-wrapper.left .info.slide-in {
     transform: translateX(0);
+    opacity: 1;
   }
 
   .info-wrapper.right .info.slide-in {
     transform: translateX(0);
+    opacity: 1;
   }
 
   .slide-in {

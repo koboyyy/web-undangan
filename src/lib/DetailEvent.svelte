@@ -9,9 +9,9 @@
     </div>
 
     <div class="box box-bottom">
-      <div class="title">Akad Nikah</div>
-      <div class="date">Jum'at, 18 Juli 2025</div>
-      <div><i class="fa-regular fa-clock"></i>16.00 WIB - Selesai</div>
+      <div class="title">Resepsi</div>
+      <div class="date">Sabtu, 19 Juli 2025</div>
+      <div><i class="fa-regular fa-clock"></i>11.00 WIB - Selesai</div>
       <div><i class="fa-solid fa-location-dot"></i>Jl. Gerbang Sari, Pematang Reba</div>
       <button class="bt-map"><i class="fa-solid fa-location-dot"></i>  Google map</button>
     </div>
@@ -21,7 +21,6 @@
 <style>
 
   section {
-    /* min-height: 100vh; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -30,7 +29,6 @@
 
   .container {
     width: 100%;
-    /* min-height: 100vh; */
     padding: 70px 25px;
     display: flex;
     justify-content: center;
@@ -51,6 +49,8 @@
   }
 
   .box {
+    font-family: "AbhayaLibre";
+    font-size: 15px;
     width: 100%;
     max-width: 600px;
     background-color: white;
@@ -73,13 +73,17 @@
   }
 
   .title {
-    font-size: 24px;
+    font-family: "wasted-vindey", sans-serif;
+    font-size: 25px;
+    letter-spacing: 4px;
   }
 
   .date {
+    font-family: "AbhayaLibre";
     font-size: 15px;
+    letter-spacing: 2px;
     position: relative;
-    padding: 5px 0;
+    padding: 0 0 5px 0;
   }
 
   .date::before {
@@ -93,6 +97,7 @@
   }
 
   .bt-map {
+    font-family: "Nunito-Regular";
     width: max-content;
     background-color: black;
     border-radius: 10px;
