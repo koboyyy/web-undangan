@@ -1,6 +1,18 @@
 @font-face {
-  font-family: "Brittany";
+  font-family: "Domine";
+  src: url("/assets/font/Domine-Regular.ttf") format("truetype");
+
+  font-family: "BrittanySignature";
   src: url("/assets/font/BrittanySignature.ttf") format("truetype");
+
+  font-family: "BodoniModa";
+  src: url("/assets/font/BodoniModa_72pt-Regular.ttf") format("truetype");
+
+  font-family: "LibreBaskerville";
+  src: url("/assets/font/LibreBaskerville-Regular.ttf") format("truetype");
+
+  font-family: "CinzelDecorative";
+  src: url("/assets/font/CinzelDecorative-Regular.ttf") format("truetype");
 }
 
 @import "tailwindcss";

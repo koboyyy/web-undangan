@@ -126,6 +126,7 @@
       transform: translateX(0);
     }
 }
+
   .foto-section {
     display: flex;
     justify-content: center;
@@ -174,7 +175,7 @@
     width: max-content;
     bottom: 35%;
     transform: rotate(-90deg);
-    font-family: "Brittany", serif;
+    font-family: "Brittany";
   }
 
   .frame-left::after {

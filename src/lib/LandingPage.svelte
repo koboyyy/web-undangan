@@ -87,8 +87,8 @@
   }
 
   .main-title {
-    font-family: "Brittany", serif; /* Pastikan font "Brittany" tersedia */
-    font-size: 3.125rem; /* text-5xl */
+    font-family: "BrittanySignature", serif;
+    font-size: 3.125rem;
     color: var(--primary-text-color);
   }
 

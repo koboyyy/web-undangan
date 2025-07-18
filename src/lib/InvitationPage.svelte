@@ -104,13 +104,13 @@
   }
 
   .banner-text-small {
-    font-size: 1.25rem;
+    font-size: 0.8em;
     font-family: "Domine", serif;
   }
 
   .couple-names {
-    font-family: "Cinzel Decorative", sans-serif;
-    font-size: 2.125rem;
+    font-family: "CinzelDecorative", sans-serif;
+    font-size: 1.7em;
     margin-bottom: 250px;
   }
 
@@ -152,7 +152,7 @@
   .ornament-decoration-left {
     transform: rotate(20deg);
     bottom: 45%;
-    left: -65%;
+    left: -75%;
     animation: slide1 10s infinite ease-in-out;
   }
 
@@ -164,6 +164,7 @@
   }
 
   .info-card {
+    font-family: "Domine", sans-serif;
     width: 275px;
     background-color: var(--bg-color-white);
     display: flex;
