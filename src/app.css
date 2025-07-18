@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Brittany";
+  src: url("/assets/font/BrittanySignature.ttf") format("truetype");
+}
+
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}

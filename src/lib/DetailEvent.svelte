@@ -1,0 +1,117 @@
+<section>
+  <div class="container">
+    <div class="box box-top">
+      <div class="title">Akad Nikah</div>
+      <div class="date">Jum'at, 18 Juli 2025</div>
+      <div><i class="fa-regular fa-clock"></i>16.00 WIB - Selesai</div>
+      <div><i class="fa-solid fa-location-dot"></i>Jl. Gerbang Sari, Pematang Reba</div>
+      <button class="bt-map"><i class="fa-solid fa-location-dot"></i>  Google map</button>
+    </div>
+
+    <div class="box box-bottom">
+      <div class="title">Akad Nikah</div>
+      <div class="date">Jum'at, 18 Juli 2025</div>
+      <div><i class="fa-regular fa-clock"></i>16.00 WIB - Selesai</div>
+      <div><i class="fa-solid fa-location-dot"></i>Jl. Gerbang Sari, Pematang Reba</div>
+      <button class="bt-map"><i class="fa-solid fa-location-dot"></i>  Google map</button>
+    </div>
+  </div>
+</section>
+
+<style>
+
+  section {
+    /* min-height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 100%;
+    /* min-height: 100vh; */
+    padding: 70px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .container::before {
+    content: '';
+    background: url('/assets/bg-bangau2.jpg') no-repeat center/cover;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    z-index: -1;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 0 10px 2px rgb(102, 102, 102);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .box-top {
+    transform: translateX(-100%);
+    animation: slide linear forwards;
+  }
+
+  .box-bottom {
+    transform: translateX(100%);
+    animation: slide linear forwards;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .date {
+    font-size: 15px;
+    position: relative;
+    padding: 5px 0;
+  }
+
+  .date::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #690a0a;
+  }
+
+  .bt-map {
+    width: max-content;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+
+  .bt-map:hover {
+    background-color: white;
+    outline: 2px solid black;
+    color: black;
+  }
+
+  @keyframes slide {
+    to {
+      transform: translateX(0);
+    }
+  }
+</style>
