@@ -60,7 +60,7 @@
         <div class="info-card" class:up={cardVisibilities[0]}>
           <div class="profile-image"></div>
           <p class="card-paragraph">Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.</p>
-          <h4 class="card-section-title">(Qs Ar-Rum : 21)</h4>
+          <p class="card-paragraph">(Qs Ar-Rum : 21)</p>
         </div>
       </div>
     </div>
@@ -88,8 +88,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 150px 0;
-    gap: 5vh;
+    justify-content: space-between;
     position: relative;
     width: 100%;
     height: 90vh;
@@ -97,7 +96,7 @@
 
   .wedding-banner::before {
     content: '';
-    background: url('/assets/bg-bangau.jpg') no-repeat center/cover;
+    background: url('/assets/bg-bangau.webp') no-repeat center/cover;
     animation: inset 5s ease forwards;
     position: absolute;
     left: 0;
@@ -110,11 +109,13 @@
 
   .wrapper-title {
     text-align: center;
+    margin-top: 200px;
   }
 
   .wrapper-date {
     transform: translateY(50px);
     animation: slide-up 2s 0.7s ease forwards;
+    margin-bottom: 60px;
   }
 
   /* .display-arrow {
@@ -177,7 +178,7 @@
 
   .content-frame-container::before {
     content: "";
-    background: url('/assets/Pohon.png') no-repeat center/cover;
+    background: url('/assets/Pohon.webp') no-repeat center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -189,7 +190,7 @@
   }
 
   .ornament-decoration {
-    background: url('/assets/Pohon2.png') no-repeat center/cover;
+    background: url('/assets/Pohon2.webp') no-repeat center/cover;
     width: 500px;
     height: 300px;
     position: absolute;
@@ -212,7 +213,6 @@
   }
 
   .info-card {
-    font-family: "Domine", sans-serif;
     width: 275px;
     background-color: var(--bg-color-white);
     display: flex;
@@ -232,6 +232,7 @@
     opacity: 0.5;
     transition: all 0.5s ease-in-out;
   }
+
 
   .info-card.up {
     transform: translateY(0) !important;
@@ -258,13 +259,18 @@
   }
 
   .profile-image {
-    background-image: url('/assets/foto7.jpg');
+    background-image: url('/assets/foto7.webp');
     background-position: center;
     background-size: cover;
     width: 170px;
     height: 250px;
     background-color: bisque;
     border-radius: 200px;
+  }
+
+  .card-paragraph {
+    font-family: "AbhayaLibre", sans-serif;
+    font-size: 14px;
   }
 
   @keyframes inset {

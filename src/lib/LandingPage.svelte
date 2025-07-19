@@ -43,7 +43,7 @@
 
   /* Latar belakang dengan gambar */
   .invitation-background {
-    background-image: url("/assets/foto5.jpg");
+    background-image: url("/assets/foto5.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

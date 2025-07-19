@@ -32,10 +32,10 @@
   <div class="container">
     <div class="frame frame-left">
       <div class="wrapper">
-        <img src="/assets/foto1.jpg" alt="">
-        <img src="/assets/foto2.jpg" alt="">
-        <img src="/assets/foto3.jpg" alt="">
-        <img src="/assets/foto4.jpg" alt="">
+        <img src="/assets/foto1.webp" alt="">
+        <img src="/assets/foto2.webp" alt="">
+        <img src="/assets/foto3.webp" alt="">
+        <img src="/assets/foto4.webp" alt="">
       </div>
       <div class="frame-inset"></div>
       <div class="info-wrapper left">
@@ -48,10 +48,10 @@
 
     <div class="frame frame-right">
       <div class="wrapper">
-        <img src="/assets/foto4.jpg" alt="">
-        <img src="/assets/foto2.jpg" alt="">
-        <img src="/assets/foto3.jpg" alt="">
-        <img src="/assets/foto1.jpg" alt="">
+        <img src="/assets/foto4.webp" alt="">
+        <img src="/assets/foto2.webp" alt="">
+        <img src="/assets/foto3.webp" alt="">
+        <img src="/assets/foto1.webp" alt="">
       </div>
       <div class="frame-inset"></div>
       <div class="info-wrapper right">

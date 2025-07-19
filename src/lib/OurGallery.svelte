@@ -5,16 +5,16 @@
     <div class="frame-1">
       <h1 class="title">Our Gallery</h1>
       <div class="foto-wrapper">
-        <img src="/assets/foto4.jpg" alt="">
-        <img src="/assets/foto1.jpg" alt="">
-        <img src="/assets/foto3.jpg" alt="">
-        <img src="/assets/foto2.jpg" alt="">
+        <img src="/assets/foto4.webp" alt="">
+        <img src="/assets/foto1.webp" alt="">
+        <img src="/assets/foto3.webp" alt="">
+        <img src="/assets/foto2.webp" alt="">
       </div>
       <div class="foto-wrapper">
-        <img src="/assets/foto2.jpg" alt="">
-        <img src="/assets/foto3.jpg" alt="">
-        <img src="/assets/foto4.jpg" alt="">
-        <img src="/assets/foto1.jpg" alt="">
+        <img src="/assets/foto2.webp" alt="">
+        <img src="/assets/foto3.webp" alt="">
+        <img src="/assets/foto4.webp" alt="">
+        <img src="/assets/foto1.webp" alt="">
       </div>
       <p>"Every Love Story Is Beautiful, But Ours Is My Favorite"</p>
     </div>
@@ -22,22 +22,22 @@
 <!-- Frame Kanan -->
     <div class="frame-2">
       <div class="foto-wrapper left">
-        <img src="/assets/foto1.jpg" alt="">
-        <img src="/assets/foto2.jpg" alt="">
-        <img src="/assets/foto4.jpg" alt="">
-        <img src="/assets/foto3.jpg" alt="">
+        <img src="/assets/foto1.webp" alt="">
+        <img src="/assets/foto2.webp" alt="">
+        <img src="/assets/foto4.webp" alt="">
+        <img src="/assets/foto3.webp" alt="">
       </div>
       <div class="foto-wrapper left">
-        <img src="/assets/foto2.jpg" alt="">
-        <img src="/assets/foto1.jpg" alt="">
-        <img src="/assets/foto3.jpg" alt="">
-        <img src="/assets/foto4.jpg" alt="">
+        <img src="/assets/foto2.webp" alt="">
+        <img src="/assets/foto1.webp" alt="">
+        <img src="/assets/foto3.webp" alt="">
+        <img src="/assets/foto4.webp" alt="">
       </div>
       <div class="foto-wrapper left">
-        <img src="/assets/foto1.jpg" alt="">
-        <img src="/assets/foto3.jpg" alt="">
-        <img src="/assets/foto2.jpg" alt="">
-        <img src="/assets/foto4.jpg" alt="">
+        <img src="/assets/foto1.webp" alt="">
+        <img src="/assets/foto3.webp" alt="">
+        <img src="/assets/foto2.webp" alt="">
+        <img src="/assets/foto4.webp" alt="">
       </div>
     </div>
 
@@ -51,6 +51,17 @@
     background-color: #445563;
     grid-template-columns: 2fr 1.35fr;
     grid-template-rows: 1fr;
+    position: relative;
+  }
+
+  .container::before {
+    content: '';
+    background: url('/assets/bg-kerajaan.webp') no-repeat center/cover;
+    opacity: 0.2;
+    filter: brightness(0.7);
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    z-index: 0;
   }
 
   .frame-1 {

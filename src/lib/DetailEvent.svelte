@@ -42,7 +42,7 @@
 
   .container::before {
     content: '';
-    background: url('/assets/bg-bangau2.jpg') no-repeat center/cover;
+    background: url('/assets/bg-bangau2.webp') no-repeat center/cover;
     position: absolute;
     left: 0; right: 0; top: 0; bottom: 0;
     z-index: -1;

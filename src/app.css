@@ -30,20 +30,18 @@
 
 @font-face {
   font-family: "Nunito-Regular";
-  src: url("/public/assets/font/Nunito-Regular.ttf") format("truetype");
+  src: url("/assets/font/Nunito-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "wasted-vindey";
-  src: url("/public/assets/font/wasted-vindey.regular.ttf") format("truetype");
+  src: url("/assets/font/wasted-vindey.regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "AbhayaLibre";
-  src: url("/public/assets/font/AbhayaLibre-Regular.ttf") format("truetype");
+  src: url("/assets/font/AbhayaLibre-Regular.ttf") format("truetype");
 }
-
-@import "tailwindcss";
 
 html,
 body {
@@ -51,4 +49,18 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  line-height: 1;
+  text-decoration: none;
+  list-style: none;
 }

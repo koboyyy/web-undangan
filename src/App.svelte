@@ -2,7 +2,6 @@
   import LandingPage from './lib/LandingPage.svelte';
   import InvitationPage from './lib/InvitationPage.svelte';
   import Page3 from './lib/Page3.svelte';
-  import PageDate from './lib/PageDate.svelte';
   import DetailEvent from './lib/DetailEvent.svelte';
   import OurStory from './lib/OurStory.svelte';
   import OurGallery from './lib/OurGallery.svelte';
@@ -47,7 +46,7 @@
 
 
   <!-- Audio -->
-  <audio id="lagu" src="/assets/instrumen_melayu.mp3"></audio>
+  <audio id="lagu" src="/assets/lagu/instrumen_melayu.mp3"></audio>
 </main>
 
 <style>
@@ -57,7 +56,7 @@
 
   .rsvp-footer::before {
     content: "";
-    background: url('/assets/bg-fantasi-blue.jpg') no-repeat center/cover;
+    background: url('/assets/bg-fantasi-blue.webp') no-repeat center/cover;
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     opacity: 0.9; /* Atur transparansi di sini */
